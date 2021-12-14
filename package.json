@@ -1,0 +1,33 @@
+{
+  "name": "backend-199",
+  "version": "1.0.0",
+  "description": "Backend dari aplikasi deweTour",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "kyuuchan199",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.14"
+  },
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cloudinary": "^1.27.1",
+    "concurrently": "^6.3.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "fs": "^0.0.1-security",
+    "joi": "^17.4.2",
+    "jsonwebtoken": "^8.5.1",
+    "multer": "^1.4.3",
+    "mysql2": "^2.3.3",
+    "nodemailer": "^6.7.0",
+    "pg": "^8.7.1",
+    "sequelize": "^6.8.0",
+    "sequelize-cli": "^6.2.0",
+    "streamifier": "^0.1.1",
+    "uuid": "^8.3.2"
+  }
+}
