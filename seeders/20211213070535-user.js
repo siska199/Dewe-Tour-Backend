@@ -24,7 +24,7 @@ module.exports = {
           address: 'Jl. Gunung Kawi',
           status: 'admin',
           gender: 'Female',
-          image: 'http://localhost:3002/upload/profile.jpg'
+          image: 'https://res.cloudinary.com/university-state-of-malang-city/image/upload/v1639396684/profile/profile_x0iats.jpg'
         },
       ],
       {}
