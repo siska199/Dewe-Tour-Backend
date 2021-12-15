@@ -4,7 +4,7 @@
   "description": "Backend dari aplikasi deweTour",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index.js"
+    "start": "node index.js"
   },
   "author": "kyuuchan199",
   "license": "ISC",
