@@ -244,6 +244,7 @@ exports.updateUser = async (req, res) =>{
             const imagePath = await cloudinary.uploader.upload(req.file.path,{
                 folder: 'profile',
                 use_filename:true,
+                unique_filename: false
             })
 
             data = {

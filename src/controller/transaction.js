@@ -219,6 +219,8 @@ exports.editTransaction = async (req, res) =>{
             attachmentPath = await cloudinary.uploader.upload(req.file.path,{
                 folder : 'attachment',
                 use_filename:true,
+                unique_filename: false
+
             })
             dataForm = {
                 ...req.body,

@@ -117,7 +117,8 @@ exports.addTrip = async (req, res) =>{
         for (file of req.files){
             const path = await cloudinary.uploader.upload(file.path,{
                 folder : 'trip',
-                use_filename : true
+                use_filename : true,
+                unique_filename: false
             })
             images.push(path.public_id)
         }
@@ -276,7 +277,8 @@ exports.editTrip = async (req,res)=>{
             for (file of req.files){
                 const path = await cloudinary.uploader.upload(file.path,{
                     folder : 'trip',
-                    use_filename : true
+                    use_filename : true,
+                    unique_filename: false
                 })
                 images.push(path.public_id)
             }
