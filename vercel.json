@@ -11,5 +11,9 @@
         "src": "/(.*)",
         "dest": "/"
       }
-    ]
+    ],
+    "env": {
+      "MYSQL_ADDON_URI": "@mysql_addon_uri"
+
+    }
 }
